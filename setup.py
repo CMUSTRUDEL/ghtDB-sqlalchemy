@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ghtDB_sqlalchemy_cmustrudel",
+    name="ghtDBsqlalchemyCMUSTRUDEL",
     version="0.0.1",
     author="Bogdan Vasilescu",
     author_email="vasilescu@gmail.com",
