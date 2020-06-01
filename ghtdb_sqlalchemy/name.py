@@ -7,7 +7,7 @@ class Name(Base):
     __tablename__ = 'bv_names'
     
     id = Column(Integer, primary_key=True)
-	name = Column(Text)
+    name = Column(Text)
 
     
     def __init__(self, 
