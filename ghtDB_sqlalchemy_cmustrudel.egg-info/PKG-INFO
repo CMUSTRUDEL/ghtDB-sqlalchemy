@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ghtDB_sqlalchemy_cmustrudel
+Version: 0.0.1
+Summary: GHTorrent SQLAlchemy mappings
+Home-page: https://github.com/CMUSTRUDEL/ghtDB-sqlalchemy
+Author: Bogdan Vasilescu
+Author-email: vasilescu@gmail.com
+License: UNKNOWN
+Description: # ghtDB-sqlalchemy
+        
+        This is a simple package with SQLAlchemy mappings for [GHTorrent](http://ghtorrent.org).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
