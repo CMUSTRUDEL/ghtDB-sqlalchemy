@@ -9,12 +9,20 @@ class Name(Base):
     
     id = Column(Integer, primary_key=True)
     name = Column(Text)
-
-    
+    first_name = Column(Text)
+    last_name = Column(Text)
+    num_parts = Column(Integer)
+        
     def __init__(self, 
-                name):
+                name,
+                first_name,
+                last_name
+                num_parts):
  
         self.name = name
+        self.first_name = first_name
+        self.last_name = last_name
+        self.num_parts = num_parts
 
     def __repr__(self):
         return 'GH name: %s' % \
