@@ -1,4 +1,4 @@
-from base import Base
+from ghtdb_sqlalchemy.base import Base
 
 def initDB(engine):
     metadata = Base.metadata
