@@ -1,6 +1,0 @@
-README.md
-setup.py
-ghtDBsqlalchemyCMUSTRUDEL.egg-info/PKG-INFO
-ghtDBsqlalchemyCMUSTRUDEL.egg-info/SOURCES.txt
-ghtDBsqlalchemyCMUSTRUDEL.egg-info/dependency_links.txt
-ghtDBsqlalchemyCMUSTRUDEL.egg-info/top_level.txt

@@ -3,8 +3,10 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+package = 'ghtdb_sqlalchemy_cmustrudel'
+
 setuptools.setup(
-    name="ghtDBsqlalchemyCMUSTRUDEL",
+    name="strudel.ghtdb",
     version="0.0.1",
     author="Bogdan Vasilescu",
     author_email="vasilescu@gmail.com",
