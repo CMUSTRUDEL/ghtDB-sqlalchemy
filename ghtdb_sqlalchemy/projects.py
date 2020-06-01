@@ -4,7 +4,7 @@ from sqlalchemy import Integer, String, Text, Boolean, BigInteger, DateTime
 from sqlalchemy.dialects.mysql import TIMESTAMP
 from sqlalchemy.orm import relationship, backref
 import datetime
-from .base import Base
+# from .base import Base
 # from dateutil import parser
     
 

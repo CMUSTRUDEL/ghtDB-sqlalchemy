@@ -1,7 +1,7 @@
 import sqlalchemy as sa
 from sqlalchemy import Column, Table
 from sqlalchemy import Integer, String, Boolean, BigInteger, DateTime, Text
-from .base import Base
+# from .base import Base
 
 
 class Name(Base):
