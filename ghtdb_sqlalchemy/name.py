@@ -16,7 +16,7 @@ class Name(Base):
     def __init__(self, 
                 name,
                 first_name,
-                last_name
+                last_name,
                 num_parts):
  
         self.name = name
