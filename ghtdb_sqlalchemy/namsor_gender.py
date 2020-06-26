@@ -13,6 +13,8 @@ class NamSorGender(Base):
     gender_scale = Column(Numeric)
     score = Column(Numeric)
     probability_calibrated = Column(Numeric)
+
+    gh_name = db.relationship('Name', backref='bv_namsor_gender_geo_manual_first_last_2_0_10')
     
     def __init__(self, 
                 name_id,
