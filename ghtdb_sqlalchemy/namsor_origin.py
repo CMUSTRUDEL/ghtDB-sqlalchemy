@@ -19,7 +19,7 @@ class NamSorOrigin(Base):
     sub_region_origin = Column(String)
     top_region_origin = Column(String)
     
-    gh_name = db.relationship('Name', backref='bv_namsor_origin_2_0_10')
+    gh_name = relationship('Name', backref='bv_namsor_origin_2_0_10')
     
     def __init__(self, 
                 name_id,
