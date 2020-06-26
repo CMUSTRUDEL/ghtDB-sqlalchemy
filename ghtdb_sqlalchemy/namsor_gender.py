@@ -1,20 +1,21 @@
 import sqlalchemy as sa
-from sqlalchemy import Column, Table
+from sqlalchemy import Column, Table, ForeignKey
 from sqlalchemy import Integer, String, Boolean, BigInteger, DateTime, Text, Numeric
 from .base import Base
+from sqlalchemy.orm import relationship
 
 
 class NamSorGender(Base):
     __tablename__ = 'bv_namsor_gender_geo_manual_first_last_2_0_10'
     
     id = Column(Integer, primary_key=True)
-    name_id = Column(Integer)
+    name_id = Column(Integer, ForeignKey("bv_names.id"))
     likely_gender = Column(String)
     gender_scale = Column(Numeric)
     score = Column(Numeric)
     probability_calibrated = Column(Numeric)
 
-    gh_name = db.relationship('Name', backref='bv_namsor_gender_geo_manual_first_last_2_0_10')
+    gh_name = relationship('Name', backref='bv_namsor_gender_geo_manual_first_last_2_0_10')
     
     def __init__(self, 
                 name_id,

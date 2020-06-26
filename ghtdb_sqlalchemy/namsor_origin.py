@@ -1,14 +1,15 @@
 import sqlalchemy as sa
-from sqlalchemy import Column, Table
+from sqlalchemy import Column, Table, ForeignKey
 from sqlalchemy import Integer, String, Boolean, BigInteger, DateTime, Text, Numeric
 from .base import Base
+from sqlalchemy.orm import relationship
 
 
 class NamSorOrigin(Base):
     __tablename__ = 'bv_namsor_origin_2_0_10'
     
     id = Column(Integer, primary_key=True)
-    name_id = Column(Integer)
+    name_id = Column(Integer, ForeignKey("bv_names.id"))
     country_origin = Column(String)
     country_origin_alt = Column(String)
     probability_calibrated = Column(Numeric)
