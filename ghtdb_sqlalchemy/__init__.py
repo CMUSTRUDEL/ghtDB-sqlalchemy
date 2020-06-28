@@ -5,4 +5,4 @@ from .projects import Project
 from .name import Name
 from .namsor_origin import NamSorOrigin
 from .namsor_gender import NamSorGender
-from .bv_committers import BVCommitters
+from .bv_committers import BVCommitter

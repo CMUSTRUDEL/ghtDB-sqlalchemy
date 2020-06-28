@@ -5,7 +5,7 @@ from .base import Base
 from sqlalchemy.orm import relationship
 
 
-class BVCommitters(Base):
+class BVCommitter(Base):
     __tablename__ = 'bv_committers'
     
     id = Column(Integer, primary_key=True)
