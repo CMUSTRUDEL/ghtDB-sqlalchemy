@@ -1,6 +1,6 @@
 import sqlalchemy as sa
 from sqlalchemy import Column, ForeignKey, Table
-from sqlalchemy import Integer, String, Text, Boolean, BigInteger, DateTime
+from sqlalchemy import Integer, String, Text, Boolean, BigInteger, DateTime, Numeric
 from sqlalchemy.dialects.mysql import TIMESTAMP
 from sqlalchemy.orm import relationship, backref
 #from sqlalchemy.ext.associationproxy import association_proxy
