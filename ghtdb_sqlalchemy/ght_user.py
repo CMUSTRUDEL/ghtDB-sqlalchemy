@@ -10,7 +10,7 @@ from dateutil import parser
     
 
 class GHTUser(Base):
-    __tablename__ = 'ght_users'
+    __tablename__ = 'users'
     
     id = Column(Integer, primary_key=True)
     login = Column(String(255))
