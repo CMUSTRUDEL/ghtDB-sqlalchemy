@@ -12,8 +12,8 @@ from dateutil import parser
 class GHTStar(Base):
     __tablename__ = 'watchers'
     
-    repo_id = Column(Integer)
-    user_id = Column(Integer)
+    repo_id = Column(Integer, primary_key=True)
+    user_id = Column(Integer, primary_key=True)
     created_at = Column(DateTime(timezone=True))
 
 
